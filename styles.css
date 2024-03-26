@@ -1,3 +1,9 @@
+body {
+
+background-color: lightblue;
+
+}
+
 #header {
 
 font-size: 50px;
@@ -21,15 +27,27 @@ margin-right: auto;
 background-color: blue;
 
 display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-columns: 20% 20% 20% 20% 20% ;
 
 padding: 10px;
 border-radius: 10px;
 
 }
-#options {
+.options {
 
 text-align: center;
+background-color: red;
+
+padding: 10px;
+border-radius: 10px;
+
+}
+.options:hover {
+
+background-color: yellow;
+
+padding: 10px;
+border-radius: 10px;
 
 }
 
